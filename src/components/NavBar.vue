@@ -22,7 +22,7 @@
         ...mapGetters(['getActiveUser']),
       },
       methods: {
-        ...mapMutations(['setUser']),
+        ...mapMutations(['setUser', 'setCarritoVacio']),
         logout(){
           this.setUser({
                 name: null,
@@ -32,7 +32,7 @@
                 type: null,
                 avatar: null,
               })
-
+          this.setCarritoVacio()
           if (this.$route.name !== 'home') {
               this.$router.push({ name: 'home' })
           }
