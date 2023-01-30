@@ -12,6 +12,9 @@ email: admin@eventos.com password: admin2023
 MockAPi Link 
 https://mockapi.io/projects/63a21bbcba35b96522f039e3
 
+Deploy link https://agustinahoyossg.github.io/entrega-final
+Problemas: al deployar en Github pages, el link generado da un error 404, hay que apretar en el boton volver para acceder a la home page.
+
 Como usuario, podemos:
  - Loguearnos
  - Registrarnos
